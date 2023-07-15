@@ -9,10 +9,10 @@ def lmql_topic_proba(input_text: str, topics: List[str]):
     topics = _list_as_string(topics)
     '''lmql
     argmax
-    """Article Text: {input_text}
-    Question: What is the topic of this article?\n
-    Answer:[ANALYSIS]\n
-    Based on this, the overall topic of the message can be considered to be [TOPIC]"""
+        """Article Text: {input_text}
+        Question: What is the topic of this article?\n
+        Answer:[ANALYSIS]\n
+        Based on this, the overall topic of the message can be considered to be [TOPIC]"""
     from 
         "openai/gpt-3.5-turbo"
     distribution
