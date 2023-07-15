@@ -11,12 +11,12 @@ def lmql_topic_proba(input_text: str, topics: List[str]):
     argmax
     """Article Text: {input_text}
     Question: What is the topic of this article?\n
-    A:[ANALYSIS]\n
-    Based on this, the overall sentiment of the message can be considered to be [CLASSIFICATION]"""
+    Answer:[ANALYSIS]\n
+    Based on this, the overall topic of the message can be considered to be [TOPIC]"""
     from 
         "openai/gpt-3.5-turbo"
     distribution
-        CLASSIFICATION in {topics}
+        TOPIC in {topics}
     '''
 
 def topic_proba(input_text: str, topics: List[str]) -> dict:
