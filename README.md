@@ -36,7 +36,7 @@ topic_conformer = ConformalPredictor.from_hf_datasets(
 You can then predict on new text:
 
 ```python
-get_prediction_sets(
+topic_conformer.get_prediction_sets(
     text='I think football is really amazing because man kick ball good',
 )
 ```
