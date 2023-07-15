@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "topcon"
+version = "0.1.0"
+description = ""
+authors = ["Bradley Butcher"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<4.0"
+datasets = "^2.13.1"
+matplotlib = "^3.7.2"
+lmql = "^0.0.6.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
