@@ -1,10 +1,10 @@
-# Conformal Topic Classification - TopCon
+# Conformal Constrained Topic Classiciation - TopCon^2
 
 Creating this repository because I have the feeling GPT3.5 with constrained generation, and some calibration with conformal prediction could do very well on topic classification.
 
 Either way, it's generic so you can use whatever topic classification you want.
 
-I called it topcon because it's 11pm, I'm tired, and lacking imagination apparently.
+I called it topcon^2 because it's 11pm, I'm tired, and lacking imagination apparently.
 
 ## Installation
 
